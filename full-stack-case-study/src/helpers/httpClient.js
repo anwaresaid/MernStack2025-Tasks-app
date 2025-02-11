@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = import.meta.env.VITE_BASE_URL || "http://localhost:3000";
+const baseURL = import.meta.env.VITE_BASE_URL || "https://backend-task-manager-g9ik.onrender.com";
 console.log("base", baseURL);
 const authSessionKey = "__AUTH_KEY__";
 const redirectRoute = "/auth/sign-in";
